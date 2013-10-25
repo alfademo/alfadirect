@@ -1,0 +1,83 @@
+#slidercover {
+width: 1024px;
+height: 400px;
+margin: 15px auto;
+overflow: hidden;
+}
+#slider { 
+width: 1024px;
+height: 400px;
+overflow: hidden;
+position:relative;
+}
+.slide { 
+width:100%;
+height:100%;
+}
+.slide a {
+text-decoration: none; 
+} 
+a:hover { 
+text-decoration: underline; 
+} 
+.back1 {
+color: #fff;
+font-size: 32px;
+width: 1024px;
+height: 400px;
+background-image: url(../images/alfaslide.jpg);
+}
+.back1 a{
+color: #fff;
+}
+.text1 {
+padding: 330px 0px 30px 30px;
+}
+.back2 {
+color: #ef3124;
+font-size: 32px;
+width: 1024px;
+height: 400px;
+background-image: url(../images/redsquare.jpg);
+}
+.back2 a{
+color: #ef3124;
+}
+.text2 {
+padding: 30px;
+}
+.back3 {
+color: #fff;
+font-size: 32px;
+width: 1024px;
+height: 400px;
+background-image: url(../images/speed.jpg);
+}
+.back3 a{
+color: #fff;
+}
+.text3 {
+padding: 30px;
+}
+.sli-links { 
+float: right;
+margin-top:5px;
+margin-right: 20px;
+text-align:center;
+}
+.sli-links .control-slide {
+display:inline-block;
+width:32px;
+height:32px;
+position: relative;
+overflow:hidden;
+text-indent:-9999px;
+background:url(../images/buttons.png) left bottom no-repeat;
+}
+.sli-links .control-slide:hover {
+cursor:pointer;
+background-position:left center;
+}
+.sli-links .control-slide.active{
+background-position:left top; 
+}
