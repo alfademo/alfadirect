@@ -81,7 +81,6 @@ padding-left: 5px;
 border: transparent;
 width: 150px;
 height: 16px;
-
 outline-color: transparent;
 }
 .submit {
@@ -90,6 +89,7 @@ height: 18px;
 text-indent: -9999px;
 background: url(../images/search.png);
 border: 0px;
+outline-color: transparent;
 }
 .object {
 width: 1024px;
@@ -100,8 +100,8 @@ border-radius: 10px;
 -moz-border-radius: 10px;
 -webkit-border-radius: 10px;
 box-shadow: 4px 5px 7px rgba(0, 0, 0, 0.4);
--moz-border-radius: 4px 5px 7px rgba(0, 0, 0, 0.4); 
--webkit-border-radius: 4px 5px 7px rgba(0, 0, 0, 0.4);
+-moz-box-shadow: 4px 5px 7px rgba(0, 0, 0, 0.4); 
+-webkit-box-shadow: 4px 5px 7px rgba(0, 0, 0, 0.4);
 }
 .content {
 float: left;
