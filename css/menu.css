@@ -4,6 +4,8 @@ height: 40px;
 margin: 15px auto;
 background-color: #ef3124;
 background: linear-gradient(to bottom, #fb3b3b 0%, #ef3124 40%, #d61616 100%);
+background: -moz-linear-gradient(to bottom, #fb3b3b 0%, #ef3124 40%, #d61616 100%);
+background: -webkit-linear-gradient(to bottom, #fb3b3b 0%, #ef3124 40%, #d61616 100%);
 }
 .menu {
 font-family: Times New Roman;
@@ -26,6 +28,8 @@ color: #fff;
 border-left: 3px solid #fff;
 background-color: #ef3124;
 background: linear-gradient(to bottom, #fb3b3b 0%, #ef3124 40%, #d61616 100%);
+background: -moz-linear-gradient(to bottom, #fb3b3b 0%, #ef3124 40%, #d61616 100%);
+background: -webkit-linear-gradient(to bottom, #fb3b3b 0%, #ef3124 40%, #d61616 100%);
 line-height: 40px;
 font-size: 18px;
 overflow: hidden;
@@ -33,7 +37,9 @@ overflow: hidden;
 #open, #open:visited  {
 width: 230px;
 background-color: #fe8b10;
-background: linear-gradient(to top, #fe8b10, #fe8b10);
+background: linear-gradient(to bottom, #fe8b10, #fe8b10);
+background: -moz-linear-gradient(to bottom, #fe8b10, #fe8b10);
+background: -webkit-linear-gradient(to bottom, #fe8b10, #fe8b10);
 border-right: 5px solid #fff;
 border-left: 5px solid #fff;
 border-radius: 10px;
@@ -41,7 +47,9 @@ border-radius: 10px;
 #open:hover  {
 color: #fff;
 background-color:#ff6e04;
-background: linear-gradient(to top, #ff6e04, #ff6e04);
+background: linear-gradient(to bottom, #ff6e04, #ff6e04);
+background: -moz-linear-gradient(to bottom, #ff6e04, #ff6e04);
+background: -webkit-linear-gradient(to bottom, #ff6e04, #ff6e04);
 }
 .menu ul {
 padding: 0;
@@ -57,7 +65,9 @@ display: none
 .menu ul li:hover a {
 color: #fff;
 background-color: #ce1414;
-background: linear-gradient(to top, #ce1414, #ce1414);
+background: linear-gradient(to bottom, #ce1414, #ce1414);
+background: -moz-linear-gradient(to bottom, #ce1414, #ce1414);
+background: -webkit-linear-gradient(to bottom, #ce1414, #ce1414);
 }
 .menu ul li:hover ul {
 display: block;
@@ -74,10 +84,14 @@ background-color: #000;
 color: #fff;
 border: 0px;
 opacity: 0.7;
-background: linear-gradient(to top, #000, #000);
+background: linear-gradient(to bottom, #000, #000);
+background: -moz-linear-gradient(to bottom, #000, #000);
+background: -webkit-linear-gradient(to bottom, #000, #000);
 }
 .menu ul li:hover ul li a:hover {
 background-color: #ce1414;
-background: linear-gradient(to top, #ce1414, #ce1414);
+background: linear-gradient(to bottom, #ce1414, #ce1414);
+background: -moz-linear-gradient(to bottom, #ce1414, #ce1414);
+background: -webkit-linear-gradient(to bottom, #ce1414, #ce1414);
 color: #000
 }
